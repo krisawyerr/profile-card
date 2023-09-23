@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #23252C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.ProfileCard {
+    background: #1A1B21;
+    color: #918E9B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 00px 70px black;
+}
+
+/* INFO SECTION */
+.ProfilePic {
+    border-radius: 10px 10px 0px 0px;
+}
+.Name {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.JobTitle {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #839aff;
+}
+.Website {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.Buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.EmailButton {
+    border: none;
+    padding: 9px 37px;
+    border-radius: 5px 5px 5px 5px;
+    background: #fff;
+}
+.EmailButton:hover {
+    background: hsla(0, 0%, 100%, 0.5);
+    transform: scale(1.1);
+}
+.EmailLink {
+    color: #000000; 
+    text-decoration: none;
+ }
+.LinkedInButton {
+    border: none;
+    padding: 9px 37px;
+    border-radius: 5px 5px 5px 5px;
+    background: #5093E2;
+}
+.LinkedInButton:hover {
+    background: hsla(212, 72%, 60%, 0.5);
+    transform: scale(1.1);
+}
+.LinkedInLink {
+   color: #fff; 
+   text-decoration: none;
+}
+
+/* ABOUT SECTION */
+.AboutSection {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.WordAbout {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: -5px;
+}
+.AboutParagraph {
+    max-width: 255px;
+}
+
+/* INTREST SECTION */
+.IntrestSection {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.WordIntrest {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: -5px;
+}
+.IntrestParagraph {
+    max-width: 255px;
+}
+
+/* FOOTER SECTION */
+.Footer {
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px 23px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
