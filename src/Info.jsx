@@ -1,7 +1,7 @@
 export default function Info() {
     return (
         <div className="InfoSection">
-            <img src="/src/mohamad-khosravi-Uw3OfKz2J-0-unsplash.jpg" height={300} className="ProfilePic"/>
+            <img src="src\mohamad-khosravi-Uw3OfKz2J-0-unsplash.jpg" height={300} className="ProfilePic"/>
             <p className="Name">Jason Green</p>
             <p className="JobTitle">Frontend Developer</p>
             <p className="Website">jasongreen.com</p>
